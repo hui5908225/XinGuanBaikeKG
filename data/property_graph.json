@@ -1,0 +1,514 @@
+{
+    "@graph": [
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P0",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "名称"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P1",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "科"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P2",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "目"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P3",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "属"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P4",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "病毒形状"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P5",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "传播途径"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P6",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "名称"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P7",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "医学专科"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P8",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "发病部位"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P9",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "临床表现"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P10",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "常见病因"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P11",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "传染性"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P12",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "病原类型"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P13",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "名称"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C4",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P14",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "科"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C4",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P15",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "界"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C4",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P16",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "属"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C4",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P17",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "名称"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P18",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "类型"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P19",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "剂量"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P20",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "是否处方药"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P21",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "不良反应"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P22",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "禁忌"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P23",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "名称"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P24",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "别称"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P25",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "病因"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P26",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "发病部位"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P27",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "临床表现"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P28",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "传染性"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P29",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "就诊科室"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P30",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "多发人群"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P31",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "相关检查"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P32",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "名称"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P33",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "学科级数"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P34",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "学科分支"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P35",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "常见疾病"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P36",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "研究领域"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P37",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "主要检查方法"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P38",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "主要治疗方法"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P39",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "中文名"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P40",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "外文名"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P41",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "分类"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P42",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "作用"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P43",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "正常值"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P44",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "来源"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P45",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "来源"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P46",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "来源"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C4",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P47",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "来源"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P48",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "来源"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P49",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "来源"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/wiki/property/P50",
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "zh",
+                "@value": "来源"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "range": "http://www.w3.org/2001/XMLSchema#string"
+        }
+    ]
+}
