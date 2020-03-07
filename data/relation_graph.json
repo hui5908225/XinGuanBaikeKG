@@ -7,10 +7,10 @@
                 "@language": "zh",
                 "@value": "引起"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C4",
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
             "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C5",
-                "http://www.openkg.cn/COVID-19/wiki/class/C1"
+                "http://www.openkg.cn/COVID-19/wiki/class/C1",
+                "http://www.openkg.cn/COVID-19/wiki/class/C6"
             ]
         },
         {
@@ -20,10 +20,10 @@
                 "@language": "zh",
                 "@value": "引起"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C4",
             "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C5",
-                "http://www.openkg.cn/COVID-19/wiki/class/C1"
+                "http://www.openkg.cn/COVID-19/wiki/class/C1",
+                "http://www.openkg.cn/COVID-19/wiki/class/C6"
             ]
         },
         {
@@ -33,10 +33,10 @@
                 "@language": "zh",
                 "@value": "可医治"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
             "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C1",
-                "http://www.openkg.cn/COVID-19/wiki/class/C5"
+                "http://www.openkg.cn/COVID-19/wiki/class/C6",
+                "http://www.openkg.cn/COVID-19/wiki/class/C1"
             ]
         },
         {
@@ -46,8 +46,8 @@
                 "@language": "zh",
                 "@value": "适用科室"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
-            "range": "http://www.openkg.cn/COVID-19/wiki/class/C5"
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C0"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P55",
@@ -56,8 +56,8 @@
                 "@language": "zh",
                 "@value": "适用症状"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
-            "range": "http://www.openkg.cn/COVID-19/wiki/class/C5"
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C6"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P56",
@@ -66,8 +66,8 @@
                 "@language": "zh",
                 "@value": "适用疾病"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
-            "range": "http://www.openkg.cn/COVID-19/wiki/class/C5"
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P57",
@@ -76,8 +76,8 @@
                 "@language": "zh",
                 "@value": "常用药物"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
-            "range": "http://www.openkg.cn/COVID-19/wiki/class/C5"
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C3"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P58",
@@ -86,8 +86,8 @@
                 "@language": "zh",
                 "@value": "就诊于"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
-            "range": "http://www.openkg.cn/COVID-19/wiki/class/C5"
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C0"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P59",
@@ -96,8 +96,8 @@
                 "@language": "zh",
                 "@value": "相关疾病"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
-            "range": "http://www.openkg.cn/COVID-19/wiki/class/C5"
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P60",
@@ -106,8 +106,8 @@
                 "@language": "zh",
                 "@value": "临床症状"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
-            "range": "http://www.openkg.cn/COVID-19/wiki/class/C5"
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C6"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P61",
@@ -116,10 +116,10 @@
                 "@language": "zh",
                 "@value": "主要病因"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
             "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C4",
-                "http://www.openkg.cn/COVID-19/wiki/class/C6"
+                "http://www.openkg.cn/COVID-19/wiki/class/C5",
+                "http://www.openkg.cn/COVID-19/wiki/class/C4"
             ]
         },
         {
@@ -129,8 +129,8 @@
                 "@language": "zh",
                 "@value": "常用药物"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
-            "range": "http://www.openkg.cn/COVID-19/wiki/class/C6"
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C3"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P63",
@@ -139,8 +139,8 @@
                 "@language": "zh",
                 "@value": "就诊科室"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
-            "range": "http://www.openkg.cn/COVID-19/wiki/class/C6"
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C0"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P64",
@@ -149,7 +149,7 @@
                 "@language": "zh",
                 "@value": "相关症状"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
             "range": "http://www.openkg.cn/COVID-19/wiki/class/C6"
         },
         {
@@ -159,10 +159,10 @@
                 "@language": "zh",
                 "@value": "sameAs"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
             "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C4",
-                "http://www.openkg.cn/COVID-19/wiki/class/C6"
+                "http://www.openkg.cn/COVID-19/wiki/class/C5",
+                "http://www.openkg.cn/COVID-19/wiki/class/C4"
             ]
         },
         {
@@ -172,16 +172,8 @@
                 "@language": "zh",
                 "@value": "sameAs"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C4",
-            "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C4",
-                "http://www.openkg.cn/COVID-19/wiki/class/C3",
-                "http://www.openkg.cn/COVID-19/wiki/class/C6",
-                "http://www.openkg.cn/COVID-19/wiki/class/C1",
-                "http://www.openkg.cn/COVID-19/wiki/class/C0",
-                "http://www.openkg.cn/COVID-19/wiki/class/C2",
-                "http://www.openkg.cn/COVID-19/wiki/class/C5"
-            ]
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C0"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P67",
@@ -190,16 +182,8 @@
                 "@language": "zh",
                 "@value": "sameAs"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
-            "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C4",
-                "http://www.openkg.cn/COVID-19/wiki/class/C3",
-                "http://www.openkg.cn/COVID-19/wiki/class/C6",
-                "http://www.openkg.cn/COVID-19/wiki/class/C1",
-                "http://www.openkg.cn/COVID-19/wiki/class/C0",
-                "http://www.openkg.cn/COVID-19/wiki/class/C2",
-                "http://www.openkg.cn/COVID-19/wiki/class/C5"
-            ]
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C2"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P68",
@@ -208,16 +192,8 @@
                 "@language": "zh",
                 "@value": "sameAs"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
-            "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C4",
-                "http://www.openkg.cn/COVID-19/wiki/class/C3",
-                "http://www.openkg.cn/COVID-19/wiki/class/C6",
-                "http://www.openkg.cn/COVID-19/wiki/class/C1",
-                "http://www.openkg.cn/COVID-19/wiki/class/C0",
-                "http://www.openkg.cn/COVID-19/wiki/class/C2",
-                "http://www.openkg.cn/COVID-19/wiki/class/C5"
-            ]
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P69",
@@ -226,16 +202,8 @@
                 "@language": "zh",
                 "@value": "sameAs"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C1",
-            "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C4",
-                "http://www.openkg.cn/COVID-19/wiki/class/C3",
-                "http://www.openkg.cn/COVID-19/wiki/class/C6",
-                "http://www.openkg.cn/COVID-19/wiki/class/C1",
-                "http://www.openkg.cn/COVID-19/wiki/class/C0",
-                "http://www.openkg.cn/COVID-19/wiki/class/C2",
-                "http://www.openkg.cn/COVID-19/wiki/class/C5"
-            ]
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C5"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P70",
@@ -244,16 +212,8 @@
                 "@language": "zh",
                 "@value": "sameAs"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C0",
-            "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C4",
-                "http://www.openkg.cn/COVID-19/wiki/class/C3",
-                "http://www.openkg.cn/COVID-19/wiki/class/C6",
-                "http://www.openkg.cn/COVID-19/wiki/class/C1",
-                "http://www.openkg.cn/COVID-19/wiki/class/C0",
-                "http://www.openkg.cn/COVID-19/wiki/class/C2",
-                "http://www.openkg.cn/COVID-19/wiki/class/C5"
-            ]
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C3",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C3"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P71",
@@ -262,16 +222,8 @@
                 "@language": "zh",
                 "@value": "sameAs"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C2",
-            "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C4",
-                "http://www.openkg.cn/COVID-19/wiki/class/C3",
-                "http://www.openkg.cn/COVID-19/wiki/class/C6",
-                "http://www.openkg.cn/COVID-19/wiki/class/C1",
-                "http://www.openkg.cn/COVID-19/wiki/class/C0",
-                "http://www.openkg.cn/COVID-19/wiki/class/C2",
-                "http://www.openkg.cn/COVID-19/wiki/class/C5"
-            ]
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C6",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C6"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/property/P72",
@@ -280,16 +232,8 @@
                 "@language": "zh",
                 "@value": "sameAs"
             },
-            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C5",
-            "range": [
-                "http://www.openkg.cn/COVID-19/wiki/class/C4",
-                "http://www.openkg.cn/COVID-19/wiki/class/C3",
-                "http://www.openkg.cn/COVID-19/wiki/class/C6",
-                "http://www.openkg.cn/COVID-19/wiki/class/C1",
-                "http://www.openkg.cn/COVID-19/wiki/class/C0",
-                "http://www.openkg.cn/COVID-19/wiki/class/C2",
-                "http://www.openkg.cn/COVID-19/wiki/class/C5"
-            ]
+            "domain": "http://www.openkg.cn/COVID-19/wiki/class/C4",
+            "range": "http://www.openkg.cn/COVID-19/wiki/class/C4"
         }
     ]
 }

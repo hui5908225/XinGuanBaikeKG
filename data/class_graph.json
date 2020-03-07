@@ -5,7 +5,7 @@
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "药物"
+                "@value": "医学专科"
             }
         },
         {
@@ -13,7 +13,7 @@
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "症状"
+                "@value": "疾病"
             }
         },
         {
@@ -21,7 +21,7 @@
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "医学专科"
+                "@value": "检查科目"
             }
         },
         {
@@ -29,7 +29,7 @@
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "检查科目"
+                "@value": "药物"
             }
         },
         {
@@ -37,7 +37,7 @@
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "细菌"
+                "@value": "病毒"
             }
         },
         {
@@ -45,7 +45,7 @@
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "疾病"
+                "@value": "细菌"
             }
         },
         {
@@ -53,7 +53,7 @@
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "病毒"
+                "@value": "症状"
             }
         },
         {
@@ -61,27 +61,27 @@
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "男性疾病"
+                "@value": "DNA病毒"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C7"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C4"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C8",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "DNA病毒"
+                "@value": "中药"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C8"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C3"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C9",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "变形菌门"
+                "@value": "感冒药"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C9"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C3"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C10",
@@ -90,367 +90,367 @@
                 "@language": "zh",
                 "@value": "抗生素"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C10"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C3"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C11",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "肾脏疾病"
+                "@value": "泌尿科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C11"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C12",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "消化系统疾病"
+                "@value": "遗传病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C12"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C13",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "外用药"
+                "@value": "罕见病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C13"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C14",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "内分泌疾病"
+                "@value": "心理疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C14"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C15",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "循环系统疾病"
+                "@value": "先天性疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C15"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C16",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "肛肠疾病"
+                "@value": "循环系统疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C16"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C17",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "逆转录病毒"
+                "@value": "妇科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C17"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C18",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "眼科疾病"
+                "@value": "呼吸系统疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C18"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C19",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "肌肉骨骼系统和结缔组织疾病"
+                "@value": "精神药物"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C19"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C3"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C20",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "感冒药"
+                "@value": "心脏和血管疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C20"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C21",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "神经系统疾病"
+                "@value": "肌肉骨骼系统和结缔组织疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C21"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C22",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "先天性疾病"
+                "@value": "厚壁菌门"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C22"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C5"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C23",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "内科疾病"
+                "@value": "神经系统疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C23"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C24",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "妇科病"
+                "@value": "消化内科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C24"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C25",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "儿科疾病"
+                "@value": "肛肠疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C25"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C26",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "心理疾病"
+                "@value": "皮肤和皮下组织疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C26"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C27",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "RNA病毒"
+                "@value": "儿科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C27"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C28",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "呼吸系统疾病"
+                "@value": "外用药"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C28"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C3"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C29",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "慢性病"
+                "@value": "蓝菌"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C29"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C5"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C30",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "心脏和血管疾病"
+                "@value": "消化系统疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C30"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C31",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "疫苗"
+                "@value": "RNA病毒"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C31"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C4"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C32",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "精神药物"
+                "@value": "内科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C32"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C33",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "罕见病"
+                "@value": "放线菌门"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C33"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C5"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C34",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "放线菌门"
+                "@value": "神经外科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C34"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C35",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "厚壁菌门"
+                "@value": "眼科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C35"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C36",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "消化内科疾病"
+                "@value": "口腔科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C36"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C37",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "口腔科疾病"
+                "@value": "逆转录病毒"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C37"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C4"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C38",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "妇科疾病"
+                "@value": "耳鼻喉科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C38"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C39",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "衣原体门"
+                "@value": "慢性病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C39"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C40",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "血液系统疾病"
+                "@value": "精神科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C40"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C41",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "精神科疾病"
+                "@value": "疫苗"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C41"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C3"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C42",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "神经外科疾病"
+                "@value": "传染病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C42"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C43",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "皮肤和皮下组织疾病"
+                "@value": "衣原体门"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C43"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C5"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C44",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "蓝菌"
+                "@value": "变形菌门"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C44"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C5"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C45",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "耳鼻喉科疾病"
+                "@value": "血液系统疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C45"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C46",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "神经内科疾病"
+                "@value": "男性疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C46"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C47",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "泌尿科疾病"
+                "@value": "肾脏疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C47"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C48",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "中药"
+                "@value": "内分泌疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C48"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C49",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "遗传病"
+                "@value": "神经内科疾病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C49"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         },
         {
             "@id": "http://www.openkg.cn/COVID-19/wiki/class/C50",
             "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
             "label": {
                 "@language": "zh",
-                "@value": "传染病"
+                "@value": "妇科病"
             },
-            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C50"
+            "subClassOf": "http://www.openkg.cn/COVID-19/wiki/class/C1"
         }
     ]
 }
